@@ -1,0 +1,43 @@
+.container {
+  min-width: 210px;
+  max-width: 220px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.location {
+  width: 23px;
+  height: 23px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+#write {
+  width: 25px;
+  height: 25px;
+}
+
+#write {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.adress {
+  margin-top: 4px;
+  display: flex;
+  align-items: baseline;
+}
+
+.adress-header {
+  font-size: 0.9rem;
+  font-weight: 550;
+}
+.adress-text {
+  color: #575151;
+  font-size: 0.83rem;
+  font-weight: 450;
+}
